@@ -50,7 +50,7 @@ const Chat = () => {
         }, []);
 
         const sendMessage = (text,user) => {
-            if(!text.trim()){
+            if(text.trim()){
                 if(!currentUser){
                     setCurrentUser(user);
                 }
