@@ -6,7 +6,9 @@ import "./Chat.css";
 
 
 
-const socket = io(process.env.REACT_APP_SOCKET_URL || "http://localhost:5000");
+const socket = io(
+  process.env.REACT_APP_SOCKET_URL || "http://localhost:5000"
+);
 const Chat = () => {
     const [messages, setMessages] = useState([]);
     const [isConnected, setIsConnected] = useState(false);
