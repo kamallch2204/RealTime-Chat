@@ -34,7 +34,7 @@ app.get('/', (req, res) => {
         getMessages: 'GET /api/messages',
         createMessage: 'POST /api/messages',
         deleteMessage: 'DELETE /api/messages',
-        testClient:'GET/index.html'
+        testClient:'GET /socket-test.html'
       }
 
     });
